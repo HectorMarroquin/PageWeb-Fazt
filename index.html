@@ -2,43 +2,117 @@
 <html>
 <head>
 	<title>Mi pagina con boostrap</title>
+	<!--BOOSTRAP CSS-->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<!--FONT AWESOME-->
+	<script src="js/all.js"></script>
+	<!--CUSTOM-CSS-->
+	<link rel="stylesheet" href="main.css">
 
 </head>
 <body>
 	
-	<!-- NAVIGATION-->
-	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-		<div class="container">
-			<a href="index.html" class="navbar-brand">WensiteOne</a>
-				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"><span class="navbar-toggler.ico"></span>
-				</button>
-				
-				<div class="collapse navbar-collapse" id="navbarCollapse"></div>
-		    	<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a href="#home-section" class="nav-link">Home</a>
-					</li>
-					<li class="nav-item">
-						<a href="#info-section" class="nav-link">Info</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Create</a>
-					</li>
-					<li class="nav-item">
-						<a href="#" class="nav-link">Share</a>
-					</li>
-				</ul>
-		</div>
+	  <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          WebsiteOne
+        </a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-	</nav>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home-section" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#info-section" class="nav-link">Info</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Create</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Share</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <!-- HOME -->
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 d-none d-sm-block">
+                <h1 class="display-4">Lorem <strong>ipsum dolor</strong> sit amet, consectetur adipisicing.</h1>
 
+                <!-- check -->
+                <div class="d-flex flex-row">
+                  <div class="p-4 align-self-start">
+                    <i class="fas fa-certificate"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque nam eos soluta, est velit magnam modi delectus amet, eveniet.
+                  </div>
+                </div>
+                <!-- check -->
+                <div class="d-flex flex-row">
+                  <div class="p-4 align-self-start">
+                    <i class="fas fa-certificate"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque nam eos soluta, est velit magnam modi delectus amet, eveniet.
+                  </div>
+                </div>
+                <!-- check -->
+                <div class="d-flex flex-row">
+                  <div class="p-4 align-self-start">
+                    <i class="fas fa-certificate"></i>
+                  </div>
+                  <div class="p-4 align-self-end">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum eaque nam eos soluta, est velit magnam modi delectus amet, eveniet.
+                  </div>
+                </div>
+
+              </div>
+              <!-- SECOND COLUMN -->
+              <div class="col-lg-4">
+                <div class="card text-center" style="background-color: #c0392b;">
+                  <div class="card-body">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                    <form>
+                      <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="Username">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control form-control-lg" placeholder="Confirm Password">
+                      </div>
+                      <input type="submit" value="Send" class="btn btn-outline-light btn-block">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 	
+
+ 
+
+
 	<script src="js/jquery-3.2.1.slim.min.js"></script>
 	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/all.js"></script>
+	
 </body>
 </html>
